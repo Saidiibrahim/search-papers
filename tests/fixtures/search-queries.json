@@ -1,0 +1,180 @@
+{
+	"simpleQueries": {
+		"basic": "machine learning",
+		"specific": "transformer attention mechanism",
+		"broad": "artificial intelligence",
+		"niche": "quantum machine learning",
+		"empty": "",
+		"nonexistent": "nonexistent topic xyz123"
+	},
+
+	"advancedSearchParams": {
+		"titleOnly": {
+			"title": "neural networks",
+			"max_results": 5
+		},
+		"authorOnly": {
+			"author": "Geoffrey Hinton",
+			"max_results": 10
+		},
+		"categoryOnly": {
+			"category": "cs.AI",
+			"max_results": 20
+		},
+		"dateRange": {
+			"all": "machine learning",
+			"date_from": "2023-01-01",
+			"date_to": "2024-01-01",
+			"max_results": 15
+		},
+		"multipleFields": {
+			"title": "transformer",
+			"author": "Ashish Vaswani",
+			"category": "cs.AI",
+			"date_from": "2017-01-01",
+			"max_results": 5
+		},
+		"abstractSearch": {
+			"abstract": "attention mechanism",
+			"category": "cs.LG",
+			"max_results": 10
+		},
+		"commentSearch": {
+			"comment": "accepted to ICLR",
+			"max_results": 5
+		},
+		"journalSearch": {
+			"journal_ref": "Nature",
+			"max_results": 10
+		}
+	},
+
+	"sortingOptions": {
+		"relevance": {
+			"all": "machine learning",
+			"sort_by": "relevance",
+			"max_results": 10
+		},
+		"lastUpdatedDate": {
+			"all": "deep learning",
+			"sort_by": "lastUpdatedDate",
+			"max_results": 10
+		},
+		"submittedDate": {
+			"all": "computer vision",
+			"sort_by": "submittedDate",
+			"max_results": 10
+		}
+	},
+
+	"boundaryTestCases": {
+		"maxResults1": {
+			"all": "AI",
+			"max_results": 1
+		},
+		"maxResults50": {
+			"all": "machine learning",
+			"max_results": 50
+		},
+		"maxResults100": {
+			"all": "deep learning",
+			"max_results": 100
+		},
+		"minDate": {
+			"all": "neural networks",
+			"date_from": "1990-01-01",
+			"max_results": 5
+		},
+		"futureDate": {
+			"all": "quantum computing",
+			"date_to": "2030-12-31",
+			"max_results": 5
+		}
+	},
+
+	"errorTestCases": {
+		"invalidCategory": {
+			"category": "invalid.category",
+			"max_results": 5
+		},
+		"invalidDateFormat": {
+			"date_from": "2024/01/01",
+			"max_results": 5
+		},
+		"negativeMaxResults": {
+			"all": "test",
+			"max_results": -1
+		},
+		"tooManyResults": {
+			"all": "test",
+			"max_results": 1000
+		},
+		"triggerError": {
+			"all": "error",
+			"max_results": 5
+		},
+		"triggerTimeout": {
+			"all": "timeout",
+			"max_results": 5
+		},
+		"triggerRateLimit": {
+			"all": "ratelimit",
+			"max_results": 5
+		}
+	},
+
+	"realWorldQueries": {
+		"researchTopic": {
+			"title": "large language models",
+			"category": "cs.CL",
+			"date_from": "2020-01-01",
+			"max_results": 20
+		},
+		"authorResearch": {
+			"author": "Ilya Sutskever",
+			"category": "cs.LG",
+			"max_results": 15
+		},
+		"recentWork": {
+			"all": "GPT transformer",
+			"date_from": "2022-01-01",
+			"sort_by": "submittedDate",
+			"max_results": 10
+		},
+		"interdisciplinary": {
+			"abstract": "computer vision natural language",
+			"max_results": 25
+		},
+		"conferencePrep": {
+			"comment": "accepted to NeurIPS",
+			"date_from": "2023-01-01",
+			"max_results": 30
+		}
+	},
+
+	"categories": {
+		"cs.AI": "Artificial Intelligence",
+		"cs.CV": "Computer Vision",
+		"cs.CL": "Computation and Language",
+		"cs.LG": "Machine Learning",
+		"cs.NE": "Neural and Evolutionary Computing",
+		"stat.ML": "Machine Learning (Statistics)",
+		"math.OC": "Optimization and Control",
+		"quant-ph": "Quantum Physics",
+		"physics.comp-ph": "Computational Physics",
+		"eess.IV": "Image and Video Processing"
+	},
+
+	"popularAuthors": [
+		"Geoffrey Hinton",
+		"Yann LeCun",
+		"Yoshua Bengio",
+		"Andrew Ng",
+		"Ian Goodfellow",
+		"Andrej Karpathy",
+		"Fei-Fei Li",
+		"Demis Hassabis",
+		"Ilya Sutskever",
+		"Ashish Vaswani"
+	]
+}

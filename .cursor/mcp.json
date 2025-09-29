@@ -1,0 +1,12 @@
+{
+	"mcpServers": {
+		"ultracite": {
+			"command": "npx",
+			"args": ["-y", "mcp-remote", "https://www.ultracite.ai/api/mcp/mcp"]
+		},
+		"search-papers": {
+			"command": "npx",
+			"args": ["mcp-remote", "https://search-papers.com/sse"]
+		}
+	}
+}

@@ -1,0 +1,64 @@
+{
+  "name": "search-papers",
+  "version": "0.1.0",
+  "mcpName": "io.github.Saidiibrahim/search-papers",
+  "private": false,
+  "description": "An MCP server that provides your agents the ability to search, analyse, and explore academic papers from arXiv",
+  "keywords": [
+    "mcp",
+    "arxiv",
+    "academic",
+    "papers",
+    "search"
+  ],
+  "author": "Ibrahim Saidi",
+  "license": "Apache-2.0",
+  "homepage": "search-papers.com",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Saidiibrahim/search-papers.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Saidiibrahim/search-papers/issues",
+    "email": "saidiibrahim@gmail.com"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "scripts": {
+    "deploy": "wrangler deploy",
+    "dev": "wrangler dev",
+    "build": "tsc",
+    "format": "biome format --write",
+    "lint:fix": "biome lint --fix",
+    "start": "wrangler dev",
+    "prepare": "npm run build",
+    "cf-typegen": "wrangler types",
+    "test": "vitest",
+    "test:watch": "vitest --watch",
+    "test:coverage": "vitest --coverage",
+    "test:ui": "vitest --ui",
+    "test:unit": "vitest run --config vitest.unit.config.ts",
+    "test:integration": "vitest run --config vitest.integration.config.ts",
+    "tdd": "vitest --watch --reporter=verbose",
+    "test:debug": "vitest --inspect-brk --no-coverage",
+    "test:changed": "vitest --changed",
+    "precommit": "npm run lint:fix && npm run test:unit && npm run test:coverage"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^2.1.1",
+    "@types/node": "^24.3.0",
+    "@vitest/coverage-v8": "^3.2.4",
+    "@vitest/ui": "^3.2.4",
+    "miniflare": "^4.20250816.1",
+    "msw": "^2.10.5",
+    "typescript": "^5.5.2",
+    "vitest": "^3.2.4",
+    "wrangler": "^4.14.1"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.7.0",
+    "agents": "^0.0.65",
+    "zod": "^3.24.2"
+  }
+}

@@ -1,0 +1,150 @@
+{
+	"samplePaper": {
+		"id": "2401.12345",
+		"title": "Sample AI Paper Title",
+		"authors": ["John Doe", "Jane Smith"],
+		"summary": "This is a sample abstract for testing purposes. It demonstrates machine learning techniques applied to natural language processing tasks with state-of-the-art results.",
+		"pdf_url": "http://arxiv.org/pdf/2401.12345v1.pdf",
+		"arxiv_url": "http://arxiv.org/abs/2401.12345v1",
+		"published": "2024-01-15",
+		"updated": "2024-01-15",
+		"categories": ["cs.AI"],
+		"primary_category": "cs.AI",
+		"affiliations": ["University of AI", "Tech Institute"],
+		"comment": "10 pages, 5 figures",
+		"version": 1
+	},
+
+	"multipleAuthorsePaper": {
+		"id": "2401.67890",
+		"title": "Deep Learning Architectures for Computer Vision",
+		"authors": ["Alice Johnson", "Bob Wilson", "Charlie Brown", "Diana Prince"],
+		"summary": "Latest advances in deep learning for computer vision applications, including novel attention mechanisms and transformer-based approaches.",
+		"pdf_url": "http://arxiv.org/pdf/2401.67890v2.pdf",
+		"arxiv_url": "http://arxiv.org/abs/2401.67890v2",
+		"published": "2024-01-16",
+		"updated": "2024-01-20",
+		"categories": ["cs.CV", "cs.AI"],
+		"primary_category": "cs.CV",
+		"affiliations": [
+			"Stanford University",
+			"MIT",
+			"Google Research",
+			"Facebook AI"
+		],
+		"comment": "Accepted to CVPR 2024, 12 pages, 8 figures",
+		"journal_ref": "CVPR 2024",
+		"version": 2
+	},
+
+	"physicsePaper": {
+		"id": "2401.11111",
+		"title": "Quantum Computing Applications in Machine Learning",
+		"authors": ["Eve Adams", "Frank Miller"],
+		"summary": "Exploring the intersection of quantum computing and machine learning algorithms for improved computational efficiency.",
+		"pdf_url": "http://arxiv.org/pdf/2401.11111v1.pdf",
+		"arxiv_url": "http://arxiv.org/abs/2401.11111v1",
+		"published": "2024-01-10",
+		"categories": ["quant-ph", "cs.LG"],
+		"primary_category": "quant-ph",
+		"affiliations": ["IBM Quantum", "University of Quantum Sciences"],
+		"comment": "8 pages, 3 figures, submitted to Nature Quantum Information",
+		"version": 1
+	},
+
+	"mathePaper": {
+		"id": "2401.99999",
+		"title": "Mathematical Foundations of Neural Network Optimization",
+		"authors": ["Grace Lee"],
+		"summary": "A rigorous mathematical analysis of optimization landscapes in deep neural networks, providing theoretical guarantees for convergence.",
+		"pdf_url": "http://arxiv.org/pdf/2401.99999v1.pdf",
+		"arxiv_url": "http://arxiv.org/abs/2401.99999v1",
+		"published": "2024-01-25",
+		"categories": ["math.OC", "cs.LG"],
+		"primary_category": "math.OC",
+		"affiliations": ["Princeton University"],
+		"comment": "15 pages, 2 figures, to appear in Journal of Machine Learning Theory",
+		"version": 1
+	},
+
+	"paperCollection": [
+		{
+			"id": "2401.12345",
+			"title": "Sample AI Paper Title",
+			"authors": ["John Doe", "Jane Smith"],
+			"summary": "This is a sample abstract for testing purposes.",
+			"published": "2024-01-15",
+			"categories": ["cs.AI"],
+			"primary_category": "cs.AI"
+		},
+		{
+			"id": "2401.67890",
+			"title": "Deep Learning Architectures for Computer Vision",
+			"authors": ["Alice Johnson", "Bob Wilson"],
+			"summary": "Latest advances in deep learning for computer vision applications.",
+			"published": "2024-01-16",
+			"categories": ["cs.CV", "cs.AI"],
+			"primary_category": "cs.CV"
+		},
+		{
+			"id": "2401.11111",
+			"title": "Quantum Computing Applications in Machine Learning",
+			"authors": ["Eve Adams", "Frank Miller"],
+			"summary": "Exploring the intersection of quantum computing and machine learning.",
+			"published": "2024-01-10",
+			"categories": ["quant-ph", "cs.LG"],
+			"primary_category": "quant-ph"
+		}
+	],
+
+	"papersByCategory": {
+		"cs.AI": [
+			{
+				"id": "2401.12345",
+				"title": "Sample AI Paper Title",
+				"authors": ["John Doe", "Jane Smith"]
+			},
+			{
+				"id": "2401.56789",
+				"title": "Advanced Neural Networks for NLP",
+				"authors": ["Bob Smith", "Carol White"]
+			}
+		],
+		"cs.CV": [
+			{
+				"id": "2401.67890",
+				"title": "Deep Learning Architectures for Computer Vision",
+				"authors": ["Alice Johnson", "Bob Wilson"]
+			}
+		],
+		"quant-ph": [
+			{
+				"id": "2401.11111",
+				"title": "Quantum Computing Applications in Machine Learning",
+				"authors": ["Eve Adams", "Frank Miller"]
+			}
+		]
+	},
+
+	"papersByAuthor": {
+		"Geoffrey Hinton": [
+			{
+				"id": "2401.11001",
+				"title": "Deep Learning: Past, Present and Future",
+				"published": "2024-01-01"
+			},
+			{
+				"id": "2401.11002",
+				"title": "Forward-Forward Algorithm for Training Neural Networks",
+				"published": "2024-01-15"
+			}
+		],
+		"Yann LeCun": [
+			{
+				"id": "2401.11003",
+				"title": "Self-Supervised Learning: The Next Frontier",
+				"published": "2024-01-10"
+			}
+		]
+	}
+}

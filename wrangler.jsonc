@@ -1,0 +1,52 @@
+{
+	"$schema": "node_modules/wrangler/config-schema.json",
+	"name": "search-papers",
+	"main": "src/index.ts",
+	"compatibility_date": "2025-03-10",
+	"compatibility_flags": ["nodejs_compat"],
+	"migrations": [
+		{
+			"new_sqlite_classes": ["ResearchMCP"],
+			"tag": "v1"
+		}
+	],
+	"durable_objects": {
+		"bindings": [
+			{
+				"class_name": "ResearchMCP",
+				"name": "MCP_OBJECT"
+			}
+		]
+	},
+	"observability": {
+		"enabled": true
+	},
+
+	/**
+	 * Custom Domain Configuration
+	 */
+	"routes": [
+		{
+			"pattern": "search-papers.com",
+			"custom_domain": true
+		}
+	],
+
+	/**
+	 * Environment Variables
+	 * GitHub configuration for dynamic stats fetching
+	 */
+	"vars": {
+		"GITHUB_OWNER": "Saidiibrahim",
+		"GITHUB_REPO": "search-papers",
+		"APP_VERSION": "0.1.0"
+	}
+
+	/**
+	 * Development Settings
+	 */
+	// "dev": {
+	//   "port": 8787,
+	//   "local_protocol": "http"
+	// }
+}

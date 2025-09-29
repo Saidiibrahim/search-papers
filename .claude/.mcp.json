@@ -1,0 +1,12 @@
+{
+	"mcpServers": {
+		"search-papers": {
+			"command": "npx",
+			"args": [
+				"mcp-remote",
+				"https://search-papers.com/sse"
+			]
+		}
+	}
+}
+

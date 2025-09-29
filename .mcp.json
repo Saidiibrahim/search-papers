@@ -1,0 +1,23 @@
+{
+	"__comment": "This is a template file. Copy this to .mcp.local.json and add your API keys there.",
+	"mcpServers": {
+		"playwright": {
+			"type": "stdio",
+			"command": "npx",
+			"args": ["@playwright/mcp@latest"],
+			"env": {}
+		},
+		"cloudflare-docs": {
+			"type": "sse",
+			"url": "https://docs.mcp.cloudflare.com/sse"
+		},
+		"context7": {
+			"type": "http",
+			"url": "https://mcp.context7.com/mcp"
+		},
+		"linear-server": {
+			"type": "sse",
+			"url": "https://mcp.linear.app/sse"
+		}
+	}
+}
