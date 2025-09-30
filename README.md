@@ -28,7 +28,7 @@ Empower your agents to search, analyse, and explore academic papers from arXiv a
 
 ## To Do
 
-- [ ] Publish to the MCP registry
+- [x] Publish to the MCP registry
 - [ ] Try Cloudflare's experimental [Code Mode](https://blog.cloudflare.com/code-mode/)
 
 ## Key Features

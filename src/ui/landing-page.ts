@@ -11,7 +11,7 @@ import type { Env } from "../types/domain";
 
 
 export async function generateLandingPage(env?: Env): Promise<string> {
-	const appVersion = env?.APP_VERSION || "0.1.0";
+	const appVersion = env?.APP_VERSION || "0.1.1";
 
 	const searchToolCount = TOOL_DOCUMENTATION.search.length;
 	const analysisToolCount = TOOL_DOCUMENTATION.analysis.length;

@@ -26,7 +26,7 @@ export class ResearchMCP extends McpAgent {
 
 	server = new McpServer({
 		name: "search-papers",
-		version: "0.1.0",
+		version: "0.1.1",
 	});
 
 	async init() {

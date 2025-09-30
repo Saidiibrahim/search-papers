@@ -1,6 +1,6 @@
 {
   "name": "search-papers",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "mcpName": "io.github.Saidiibrahim/search-papers",
   "private": false,
   "description": "An MCP server that provides your agents the ability to search, analyse, and explore academic papers from arXiv",
